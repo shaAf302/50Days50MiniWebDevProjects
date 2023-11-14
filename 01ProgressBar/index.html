@@ -1,11 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Progress Bar</title>
-</head>
-<body>
-    <h1>This is the First project</h1>
-</body>
+  </head>
+  <body>
+    <div class="container">
+        <h1>Project 1: Progress Bar</h1>
+        <br><br><br>
+      <div class="progress-container">
+        <div class="progress" id="progress"></div>
+        <div class="circle active">A</div>
+        <div class="circle">B</div>
+        <div class="circle">C</div>
+        <div class="circle">D</div>
+      </div>
+
+      <button class="btn" id="prev" disabled>Back</button>
+      <button class="btn" id="next">Forward</button>
+    </div>
+    <script src="index.js"></script>
+  </body>
 </html>

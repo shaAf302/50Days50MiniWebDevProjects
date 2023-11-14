@@ -1,0 +1,1 @@
+These are some of the mini projects that i'm practicing from a udemy course.
